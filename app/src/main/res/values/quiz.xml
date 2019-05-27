@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question1">What animal is the smallest out of these?</string>
+    <string name="question2">What is the most common house pet?</string>
+    <string name="question3">What is the biggest country in The United States?</string>
+    <string name="question4">What is the most well know fast food place?</string>
+    <string name="question5">How many months in a year have 28 days?</string>
+    <string name="question6">How many planets are there in our solar system?</string>
+    <string name="question7">Who is the main character of SpongeBob SquarePants?</string>
+    <string name="question8">What are three essentials of living?</string>
+    <string name="question9">What animal is the biggest out of these?</string>
+    <string name="question10">How many continents are there?</string>
+
+    //Quiz Options//
+
+    //Quiz question1//
+    <string name="option1A">Walrus</string>
+    <string name="option1B">Mouse</string>
+    <string name="option1C">Elephant</string>
+    <string name="option1D">Cat</string>
+
+    //Quiz question2//
+    <string name="option2A">Dog</string>
+    <string name="option2B">Fish</string>
+    <string name="option2C">Hamster</string>
+    <string name="option2D">Cat</string>
+
+    //Quiz question3//
+    <string name="option3A">Florida</string>
+    <string name="option3B">Texas</string>
+    <string name="option3C">California</string>
+    <string name="option3D">USA</string>
+
+    //Quiz question4//
+    <string name="option4A">McDonalds</string>
+    <string name="option4B">BurgerKing</string>
+    <string name="option4C">Chic-Fil-A</string>
+    <string name="option4D">Chipotlé</string>
+
+    //Quiz question5//
+    <string name="option5A">1</string>
+    <string name="option5B">2</string>
+    <string name="option5C">6</string>
+    <string name="option5D">12</string>
+
+    //Quiz question6//
+    <string name="option6A">10</string>
+    <string name="option6B">7</string>
+    <string name="option6C">9</string>
+    <string name="option6D">8</string>
+
+    //Quiz question7//
+    <string name="option7A">Patrick</string>
+    <string name="option7B">SpongeBob</string>
+    <string name="option7C">Squidward</string>
+    <string name="option7D">Mr.Krabs</string>
+
+    //Quiz question8//
+    <string name="option8A">Water,Food,Air</string>
+    <string name="option8B">Love,Car,Pets</string>
+    <string name="option8C">Electronics,Money,Friends</string>
+    <string name="option8D">Sports,Internet,Popularity</string>
+
+    //Quiz question9//
+    <string name="option9A">Whale</string>
+    <string name="option9B">Fly</string>
+    <string name="option9C">Lizard</string>
+    <string name="option9D">Parrot</string>
+
+    //Quiz question10//
+    <string name="option10A">5</string>
+    <string name="option10B">6</string>
+    <string name="option10C">7</string>
+    <string name="option10D">6</string>
+
+    //Remarks//
+    <string name="goodRemark">\"Sensational! Your parents must be so proud.\"</string>
+</resources>
