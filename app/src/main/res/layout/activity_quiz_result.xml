@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizResult"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtQuizApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz Result"
+            android:textColor="@color/colorWhite"
+            android:textSize="32sp"
+            android:padding="10dp"
+            android:background="@color/colorBackgroundLight"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="48dp"
+            android:paddingLeft="48dp"
+            android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+                        <TextView
+                            android:id="@+id/lblTimeTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Time Taken: "
+                            android:textColor="@color/colorBlack"
+                            android:textSize="24dp"
+                            android:layout_marginBottom="5dp"/>
+                        <TextView
+                            android:id="@+id/lblCorrectTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Correct Answers: "
+                            android:textColor="@color/colorBlack"
+                            android:textSize="24dp"
+                            android:layout_below="@id/lblTimeTxt"
+                            android:layout_marginBottom="5dp"/>
+                        <TextView
+                            android:id="@+id/lblScoreTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Score: "
+                            android:textColor="@color/colorBlack"
+                            android:textSize="24dp"
+                            android:layout_below="@id/lblCorrectTxt"
+                            android:layout_marginBottom="5dp"/>
+                        <TextView
+                            android:id="@+id/lblAvgTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="You got: "
+                            android:textColor="@color/colorBlack"
+                            android:textSize="24dp"
+                            android:layout_below="@id/lblScoreTxt"
+                            android:layout_marginBottom="5dp"/>
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:id="@+id/lblRemarksTxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Remarks: "
+                            android:textColor="@color/colorBlack"
+                            android:textSize="24dp"
+                            android:layout_below="@id/lblAvgTxt"
+                            android:layout_marginBottom="5dp"/>
+                        <TextView
+                            android:id="@+id/txtTotalTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0 sec"
+                            android:textColor="@color/colorOrange"
+                            android:textSize="24dp"
+                            android:layout_toRightOf="@id/lblTimeTxt"
+                            android:layout_marginBottom="5dp"/>
+                        <TextView
+                            android:id="@+id/txtTotalCorrect"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/colorOrange"
+                            android:textSize="24dp"
+                            android:layout_toRightOf="@id/lblCorrectTxt"
+                            android:layout_below="@id/lblTimeTxt"
+                            android:layout_marginBottom="5dp"/>
+                        <TextView
+                            android:id="@+id/txtTotalScore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/colorOrange"
+                            android:textSize="24dp"
+                            android:layout_toRightOf="@id/lblScoreTxt"
+                            android:layout_below="@id/lblCorrectTxt"
+                            android:layout_marginBottom="5dp"/>
+                        <TextView
+                            android:id="@+id/txtAvgScore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0 %"
+                            android:textColor="@color/colorOrange"
+                            android:textSize="24dp"
+                            android:layout_toRightOf="@id/lblAvgTxt"
+                            android:layout_below="@id/lblScoreTxt"
+                            android:layout_marginBottom="5dp"/>
+                        <TextView
+                            android:id="@+id/txtRemarks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/colorOrange"
+                            android:textSize="24dp"
+                            android:textStyle="italic"
+                            android:layout_below="@id/lblRemarksTxt"
+                            android:layout_marginBottom="5dp"/>
+                </RelativeLayout>
+
+                <Button
+                    android:layout_marginTop="80dp"
+                    android:id="@+id/btnRestartQuiz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Start Again"
+                    android:textSize="24sp"
+                    android:layout_below="@+id/txtQuizApp"
+                    android:textAllCaps="false"
+                    android:padding="15dp"
+                    android:textColor="@color/colorWhite"
+                    android:background="@color/colorBackground"/>
+        </LinearLayout>
+
+
+</LinearLayout>
